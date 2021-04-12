@@ -15,6 +15,7 @@ request.onsuccess = function(event) {
     db = event.target.result;
     //check if app is online
     if (navigator.onLine) {
+        uploadTransaction();
 
     }
 };
@@ -26,14 +27,14 @@ request.onerror = function(event) {
 //function for user transaction
 
 function saveRecord(record) {
-    const transaction = db.transaction(['new_entry'], 'readwrite');
-    const entryObjectStore = transaction.objectStore('new_entry');
+    const transaction = db.transaction(["new_entry"], "readwrite");
+    const entryObjectStore = transaction.objectStore("new_entry");
     entryObjectStore.add(record);
 }
 
 function uploadTransaction() {
-    const transaction = db.transaction(['new_entry'], 'readwrite');
-    const entryObjectStore = transaction.objectStore('new_entry');
+    const transaction = db.transaction(["new_entry"], "readwrite");
+    const entryObjectStore = transaction.objectStore("new_entry");
     const getAll = entryObjectStore.getAll();
 }
 
