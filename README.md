@@ -8,5 +8,4 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 
 
-<img width="1510" alt="Screen Shot 2021-04-13 at 11 02 44 PM" src="https://user-images.githubusercontent.com/70423368/114661808-74a1c980-9cac-11eb-8418-acbfc7c59b8b.png">
-
+<img width="1014" alt="Screen Shot 2021-04-13 at 11 17 57 PM" src="https://user-images.githubusercontent.com/70423368/114663123-ab78df00-9cae-11eb-94fb-124eecffdc58.png">
