@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "homepage": "https://github.com/khuggins1/budget-tracker.git", 
+  "homepage": "https://github.com/khuggins1/budget-tracker", 
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khuggins1/budget-tracker"
+    "url": "https://github.com/khuggins1/budget-tracker/issues"
   },
   "dependencies": {
     "compression": "^1.7.4",
